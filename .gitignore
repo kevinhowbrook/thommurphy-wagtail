@@ -1,0 +1,9 @@
+*.pyc
+.DS_Store
+*.swp
+/venv/
+/static/
+/media/
+.env
+*.sqlite3
+node_modules
