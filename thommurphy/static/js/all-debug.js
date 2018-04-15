@@ -1260,7 +1260,7 @@ function carousels() {
     item: 1,
     loop:true,
     slideMargin: 0,
-    thumbItem: 9,
+    thumbItem: 10,
     responsive : [],
   }); 
 

@@ -49,6 +49,7 @@ p.tag{
 
 
 .header {
+  overflow-x:hidden;
   border-bottom: 1px solid #111;
   font-weight:bolder;
   @include breakpoint(sm) {
@@ -350,4 +351,11 @@ video#bgvid {
     z-index:1000;
     left:0;
  }
+}
+
+#lightSlider{
+  overflow-x:hidden;
+  li{
+    text-align: center;
+  }
 }
