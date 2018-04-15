@@ -1,0 +1,11 @@
+
+{% if pages.has_previous or pages.has_next %}
+<div class="pagination">
+    {% if pages.has_previous %}
+        <a href="?{% if search_pagination %}p{% else %}page{% endif %}={{ pages.previous_page_number }}{% for key,value in request.GET.items %}{% if key != 'page' and key != 'p' %}&amp;{{ key }}={{ value }}{% endif %}{% endfor %}" class="prev" title="previous">prev</a>
+    {% endif %}
+    {% if pages.has_next %}
+        <a href="?{% if search_pagination %}p{% else %}page{% endif %}={{ pages.next_page_number }}{% for key,value in request.GET.items %}{% if key != 'page' and key != 'p' %}&amp;{{ key }}={{ value }}{% endif %}{% endfor %}" class="next" title="next">next</a>
+    {% endif %}
+</div>
+{% endif %}

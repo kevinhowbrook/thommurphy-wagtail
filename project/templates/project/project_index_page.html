@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags  wagtailimages_tags %}
+{% block content %}
+
+    <div class="masonry-grid">
+        {% for project in projects %}
+        <div class="masonry-grid-item">
+            <a href="{{project.url}}">
+                {% image project.listing_image max-400x800 class="img-fluid" %}
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% include "thommurphy/includes/modules/pagination.html" with pages=projects %}
+    
+{% endblock %}

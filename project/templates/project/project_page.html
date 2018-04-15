@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags  wagtailimages_tags %}
+{% block body_class %}template-project{% endblock %}
+
+    
+{% block content %}
+    <h1>{{ page.title }}</h1>
+    <div class="project-images">
+    {% for project_image in page.project_images.all %}    
+        {% image project_image.image max-1200x1200 class="img-fluid" %}
+    {% endfor %}
+    </div>
+    {% if page.project_slideshow.all %}
+        <div class="owl-carousel owl-theme">
+        {% for slide in page.project_slideshow.all %}    
+            <div class="item">
+            {% image slide.image max-1024x1024 class="img-fluid" %}
+            <h3 class="slide-title">{{ slide.title }}</h3>
+            <p>{{ slide.slide_description }}</p>
+            </div>
+        {% endfor %}
+        </div>
+    {% endif %}
+    <div class="project-info">
+        <p class="meta">{{ page.date }}</p>
+        {{ page.body|richtext }}
+        <p><a href="{{ page.get_parent.url }}">« Return to {{ page.get_parent.title}}</a></p>
+    </div>
+{% endblock %}
