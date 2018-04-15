@@ -36,6 +36,7 @@ gulp.task('sass', function () {
         'node_modules/include-media/dist/_include-media.scss',
         'node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
         'node_modules/owl.carousel/dist/assets/owl.theme.default.min.css',
+        'node_modules/flexslider/flexslider.css',
         'node_modules/chota/src/_*.css',
         allsass])
       .pipe(concat('main.css'))
@@ -77,6 +78,7 @@ gulp.task('js', function () {
         'node_modules/owl.carousel/dist/owl.carousel.min.js',
         'node_modules/masonry-layout/dist/masonry.pkgd.min.js',
         'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
+        'node_modules/flexslider/2.6.2/jquery.flexslider.js',
         './js/thommurphy.js'
       ])
       .pipe(concat('all.js'))

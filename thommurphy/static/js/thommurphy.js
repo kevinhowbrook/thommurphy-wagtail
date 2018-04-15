@@ -7,12 +7,30 @@ function carousels() {
     nav: true,
     items: 1,
     autoHeight: true,
-  //  animateOut: 'fadeOut',
+    animateOut: 'fadeOut',
     autoplay: true,
     //autoplayTimeout:1000,
     autoplayHoverPause: true
 
   })
+
+   $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 210,
+    itemMargin: 5,
+    asNavFor: '#slider'
+  });
+
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+  });
 }
 $('.container.main').imagesLoaded( function() {
   // images have loaded
@@ -57,4 +75,3 @@ function masonryGrid(wrapper) {
 
 masonryGrid('.masonry-grid');
 
-Footer();

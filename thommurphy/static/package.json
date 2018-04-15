@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
+    "flexslider": "^2.7.0",
     "include-media": "^1.4.9",
     "owl.carousel": "^2.2.0"
   },
