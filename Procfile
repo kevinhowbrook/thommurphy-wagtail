@@ -1,2 +1,2 @@
-web: gunicorn craigfyfe.wsgi --log-file -
+web: gunicorn thommurphy.wsgi --log-file -
 
