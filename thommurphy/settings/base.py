@@ -158,3 +158,8 @@ WAGTAIL_SITE_NAME = "thommurphy"
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
+
+AWS_STORAGE_BUCKET_NAME = 'craig-fyfe'
+AWS_ACCESS_KEY_ID = 'AKIAJ5MLPIK2JI2EVTOQ'
+AWS_SECRET_ACCESS_KEY = 'HYWQv7Xu9SX9pvtUtp4Bc5RS1kswabIx7a4pnIPU'
+AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
