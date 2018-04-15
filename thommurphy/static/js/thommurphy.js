@@ -31,6 +31,16 @@ function carousels() {
     slideshow: false,
     sync: "#carousel"
   });
+
+  $("#lightSlider").lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9,
+    responsive : [],
+  }); 
+
 }
 $('.container.main').imagesLoaded( function() {
   // images have loaded
