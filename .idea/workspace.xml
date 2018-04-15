@@ -28,8 +28,18 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thommurphy/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="164" column="70" lean-forward="false" selection-start-line="164" selection-start-column="70" selection-end-line="164" selection-end-column="70" />
+            <state relative-caret-position="590">
+              <caret line="161" column="37" lean-forward="false" selection-start-line="161" selection-start-column="37" selection-end-line="161" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thommurphy/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -82,12 +92,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>craigfyfe</find>
-      <find>cra</find>
       <find>parent</find>
       <find>craig</find>
       <find>carou</find>
       <find>slider</find>
       <find>footer</find>
+      <find>cra</find>
+      <find>favicon</find>
     </findStrings>
     <replaceStrings>
       <replace>thommurphy</replace>
@@ -201,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../craigfyfe" />
     <property name="editorconfig.notification" value="&quot;utf-8&quot;" />
-    <property name="SearchEverywhereHistoryKey" value="base&#9;FILE&#9;file:///var/www/wagtail/thommurphy/thommurphy/settings/base.py&#10;dev.py&#9;FILE&#9;file:///var/www/wagtail/thommurphy/thommurphy/settings/dev.py&#10;prod&#9;null&#9;null&#10;bas&#9;FILE&#9;file:///var/www/wagtail/thommurphy/thommurphy/templates/base.html" />
+    <property name="SearchEverywhereHistoryKey" value="bas&#9;FILE&#9;file:///var/www/wagtail/thommurphy/thommurphy/templates/base.html&#10;base&#9;FILE&#9;file:///var/www/wagtail/thommurphy/thommurphy/settings/base.py&#10;dev.py&#9;FILE&#9;file:///var/www/wagtail/thommurphy/thommurphy/settings/dev.py&#10;prod&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -397,14 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thommurphy/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/templates/project/project_index_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -508,6 +511,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thommurphy/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thommurphy/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -520,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thommurphy/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="164" column="70" lean-forward="false" selection-start-line="164" selection-start-column="70" selection-end-line="164" selection-end-column="70" />
+        <state relative-caret-position="590">
+          <caret line="161" column="37" lean-forward="false" selection-start-line="161" selection-start-column="37" selection-end-line="161" selection-end-column="37" />
           <folding />
         </state>
       </provider>
