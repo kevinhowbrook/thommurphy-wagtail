@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'search',
     'project',
 	'thommurphy',
+    'standardpage',
 
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
