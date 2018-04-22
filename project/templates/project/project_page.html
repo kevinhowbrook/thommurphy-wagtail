@@ -14,7 +14,7 @@
         <div class="col-8">
         <div class="project-images">
             {% for project_image in page.project_images.all %}
-                {% image project_image.image max-1200x1200 class="img-fluid" %}
+                {% image project_image.image original class="img-fluid" %}
             {% endfor %}
             </div>
             {% if page.project_slideshow.all %}
