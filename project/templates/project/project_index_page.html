@@ -6,7 +6,7 @@
         {% for project in projects %}
         <div class="masonry-grid-item">
             <a href="{{project.url}}">
-                {% image project.listing_image max-400x800 class="img-fluid" %}
+                {% image project.listing_image fill-300x400 class="img-fluid" %}
             </a>
         </div>
         {% endfor %}

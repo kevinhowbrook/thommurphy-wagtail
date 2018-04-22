@@ -125,7 +125,7 @@ class ProjectIndexPage(Page):
 
 		# Pagination
 		page = request.GET.get('page')
-		paginator = Paginator(projects, 12)  # Show 12 events per page
+		paginator = Paginator(projects, 25)  # Show 12 events per page
 		try:
 			projects = paginator.page(page)
 		except PageNotAnInteger:
