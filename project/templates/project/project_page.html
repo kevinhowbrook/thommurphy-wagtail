@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-2">
             <div class="project-info">
-                {{ page.body|richtext }}
+                {{ page.body_left|richtext }}
                 <p><a href="{{ page.get_parent.url }}">« Return to {{ page.get_parent.title}}</a></p>
             </div>
         </div>
@@ -29,7 +29,7 @@
             {% endif %}
         </div>
         <div class="col-2">
-        center center center center center center center center center center center center center center center 
+            {{ page.body_right|richtext }}
         </div>
     </div>
    

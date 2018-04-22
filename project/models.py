@@ -74,7 +74,8 @@ class ProjectPageProjectSlideshowImages(Orderable, ProjectSlideshow):
 class ProjectPage(Page):
 	date = models.DateField("Post date")
 	teaser_intro = models.TextField(blank=True, help_text='This text will appear below teaser', max_length='140')
-	body = RichTextField(blank=True)
+	body_left = RichTextField(blank=True)
+	body_right = RichTextField(blank=True)
 	listing_image = models.ForeignKey(
 		'wagtailimages.Image',
 		null=True,
@@ -85,10 +86,12 @@ class ProjectPage(Page):
 	content_panels = Page.content_panels + [
 		FieldPanel('date'),
 		FieldPanel('teaser_intro'),
-		FieldPanel('body', classname="full"),
+		FieldPanel('body_left', classname="full"),
+		FieldPanel('body_right', classname="full"),
 		ImageChooserPanel('listing_image'),
 		InlinePanel('project_images', label="Project Images"),
 		InlinePanel('project_slideshow', label="Project Slideshow"),
+
 	]
 
 	parent_page_types = ['project.ProjectIndexPage']

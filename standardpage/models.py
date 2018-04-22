@@ -11,6 +11,7 @@ class StandardPage(Page):
     date = models.DateField("Post date")
     body = RichTextField(blank=True)
 
+
     content_panels = Page.content_panels + [
         FieldPanel('date'),
         FieldPanel('body', classname="full"),
