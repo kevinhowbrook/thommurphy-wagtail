@@ -379,3 +379,12 @@ iframe{
     padding:10px;
 
 }
+
+.standard_page_content{
+  iframe{
+    @include breakpoint(sm) {
+      height:auto!important;
+      min-height:500px;  
+    }
+  }
+}
