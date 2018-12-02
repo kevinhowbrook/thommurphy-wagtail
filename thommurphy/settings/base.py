@@ -160,7 +160,9 @@ WAGTAIL_SITE_NAME = "thommurphy"
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
 
-AWS_STORAGE_BUCKET_NAME = 'thommurphy'
-AWS_ACCESS_KEY_ID = 'AKIAJ5MLPIK2JI2EVTOQ'
-AWS_SECRET_ACCESS_KEY = 'HYWQv7Xu9SX9pvtUtp4Bc5RS1kswabIx7a4pnIPU'
-AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+
+env = os.environ.copy()
+AWS_STORAGE_BUCKET_NAME = env['AWS_STORAGE_BUCKET_NAME']
+AWS_ACCESS_KEY_ID = env['AWS_ACCESS_KEY_ID']
+AWS_SECRET_ACCESS_KEY = env['AWS_SECRET_ACCESS_KEY']
+AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % env['AWS_STORAGE_BUCKET_NAME']
