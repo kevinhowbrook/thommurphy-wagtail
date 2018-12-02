@@ -8,3 +8,5 @@
 *.sqlite3
 node_modules
 *.idea*
+package-lock.json
+
