@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6",
+    "bootstrap": ">=4.1.2",
     "flexslider": "^2.7.1",
     "include-media": "^1.4.9",
     "lightslider": "^1.1.6",
