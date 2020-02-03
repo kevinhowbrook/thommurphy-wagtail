@@ -5,7 +5,7 @@ certifi==2018.1.18
 chardet==3.0.4
 dj-database-url==0.4.2
 dj-static==0.0.6
-Django>=1.11.23
+Django>=1.11.27
 django-modelcluster==4.1
 django-redis==4.9.0
 django-redis-cache==1.7.1
