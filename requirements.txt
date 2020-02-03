@@ -13,7 +13,7 @@ django-storages==1.6.5
 django-taggit==0.22.2
 django-toolbelt==0.0.1
 django-treebeard==4.2.0
-djangorestframework==3.6.4
+djangorestframework==3.9.1
 docutils==0.14
 draftjs-exporter==2.0.0
 gunicorn==19.7.1
@@ -32,7 +32,7 @@ s3transfer==0.1.13
 six==1.11.0
 static3==0.7.0
 Unidecode==0.4.21
-urllib3==1.22
+urllib3==1.24.2
 wagtail==2.0.1
 webencodings==0.5.1
 whitenoise==3.3.1
