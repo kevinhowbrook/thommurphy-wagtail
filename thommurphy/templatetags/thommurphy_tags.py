@@ -17,10 +17,7 @@ def get_site_root(context):
 
 
 def has_menu_children(page):
-    if page.get_children().live().in_menu():
-        return True
-    else:
-        return False
+    return bool(page.get_children().live().in_menu())
 
 
 # Retrieves the top menu items - the immediate children of the parent page
